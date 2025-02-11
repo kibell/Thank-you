@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
- <!-- First Name Amp 
+<!-- First Name Amp 
   %%[
   var @contact 
   set @contact = QueryParameter('SFID')
@@ -33,6 +33,7 @@ Set @firstnamecombo = @firstname
 ENDIF
   ]%%
 -->
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -89,6 +90,11 @@ ENDIF
   <link
     href="https://snhu.tfaforms.net/dist/form-builder/5.0.0/wforms-jsonly.css?v=dc32c8645b2385d544026180d37a5a70eef875e5"
     rel="alternate stylesheet" title="This stylesheet activated by javascript" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
   <script type="text/javascript"
     src="https://snhu.tfaforms.net/wForms/3.11/js/wforms.js?v=dc32c8645b2385d544026180d37a5a70eef875e5"></script>
   <script type="text/javascript">
@@ -98,30 +104,31 @@ ENDIF
     src="https://snhu.tfaforms.net/wForms/3.11/js/localization-en_US.js?v=dc32c8645b2385d544026180d37a5a70eef875e5"></script>
   <script type="text/javascript" async src=https://play.vidyard.com/embed/v4.js></script>
 
+
   <!-- END FORM: HEAD SECTION -->
 
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4NXPNK9L4W"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4NXPNK9L4W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-4NXPNK9L4W');
-</script>
+    gtag('config', 'G-4NXPNK9L4W');
+  </script>
 
-<!-- Hotjar Tracking Code for SNHU Properties -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2360018,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+  <!-- Hotjar Tracking Code for SNHU Properties -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 2360018, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
       a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
 
 </head>
 
@@ -131,16 +138,16 @@ ENDIF
   <!-- Header + Nav -->
 
   <header>
+
     <nav class="navbar navbar-expand-lg p-3">
       <div class="container">
         <a class="navbar-brand" href="https://www.snhu.edu/">
-          <img
-            src="https://client-data.knak.io/production/email_assets/5fd10b569d941/Y9PaAR4BN1uvwQSeUR37Jtdwa2YUrN1By1RZIsk8.png"
+          <img src="https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/09f4859f-96f3-4c83-9b4c-f249a98c12a1.png"
             alt="SNHU Logo" height="80">
         </a>
         <div class=" justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a href="Tel:8883870861" class="nav-link head-link mx-3 " target="_blank">Call</a>
+            <a href="Tel:8883870861" class="nav-link head-link mx-3 " target="_blank">Request Info</a>
             <a href="sms:21216" class="nav-link head-link mx-3" target="_blank">Text</a>
             <a href="mailto:admissions@snhu.edu" class="nav-link head-link mx-3" target="_blank">Email</a>
 
@@ -148,16 +155,85 @@ ENDIF
         </div>
       </div>
     </nav>
+    <!---Second nav-->
+    <div style="background-color: #00244E;">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg justify-content-center">
+          <div class="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav" style="gap: 2rem">
+                <li class="nav-item">
+                  <a class="nav-link active nvlink2" aria-current="page" href="#">Why SNHU?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nvlink2" href="#">Affordability</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nvlink2" href="#">Transfer Credits</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nvlink2" href="#">Military</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nvlink2" href="#">Accreditation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nvlink2" href="#">Online Courses</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
   </header>
 
-  <!---Meet the New SNHU Term Names-->
-
-  <div class="meet-div text-center d-flex justify-content-center align-items-center">
+  <!---Heading-->
+ <!-- Heading -->
+<div class="pb-spacing-4">
+  <div class="container">
+    <div class="row pt-spacing-0">
+      <div class="col-md-12">
+        <h1 class="my-3 pt-spacing-3 mt-spacing-0 mb-spacing-n4 text-center">
+          <span class="main d-block">Keep going, !</span>
+          <span class="bottom display-4--normal d-block mb-spacing-0">
+            You can complete your free, no-obligation SNHU application in minutes.
+          </span>
+        </h1>
+      </div>
+    </div>
   </div>
+</div>
+
+<!-- Background Section -->
+<div class="masthead-min position-relative" style="background-image: url(https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/0f66fd11-7819-48c1-b5d9-fa078c86e036.png); background-size: cover; background-repeat: no-repeat; background-position: center; height: 25em;">
+  <div class="container">
+    <div class="row align-items-center" style="height: 100%;">
+      <div class="col-md-12 position-relative" style="height: 100%;">
+        <div class="card cta-block1" style="width: 18rem; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
 
   <!--Accreditation-->
 
-  <div role="region" aria-label="Accreditations" class="container-fluid align-items-center text-center py-5 bg-light accreditation">
+  <div role="region" aria-label="Accreditations"
+    class="container-fluid align-items-center text-center py-5 bg-light accreditation">
     <img class="col-10 col-xxl-6"
       src="https://client-data.knak.io/production/email_assets/5fd10b569d941/URLXxrrgwra1n8IolHbmjqoC3cLBsPysUnEDKV6p.png"
       alt="SNHU accreditation logos" width="100%" height="auto">
@@ -168,21 +244,21 @@ ENDIF
   <footer class="container-fluid" style="background-color: #00244E;">
     <div class="col-10 d-flex flex-wrap justify-content-between align-items-center px-3 px-md-5 py-5 mx-auto">
       <p class="col-md-4 lh-lg" style="color:#fff"> <strong>SNHU Admission</strong><br>
-        55 S. Commercial Street 
+        55 S. Commercial Street
         <br> Manchester, NH 03106
         <br>
-        <a href="Tel:8883870864" class="text-link" >888.387.0864</a>
+        <a href="Tel:8883870864" class="text-link">888.387.0864</a>
         <br>
-        <a href="mailto:admissions@snhu.edu" class="text-link" > admissions@snhu.edu </a>
-      <a href="https://www.snhu.edu/" target="_blank"
-        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-        <img
-          src="https://client-data.knak.io/production/email_assets/5fd10b569d941/Y9PaAR4BN1uvwQSeUR37Jtdwa2YUrN1By1RZIsk8.png"
-          height="80" alt="SNHU logo">
-      </a>
-      </a>
+        <a href="mailto:admissions@snhu.edu" class="text-link"> admissions@snhu.edu </a>
+        <a href="https://www.snhu.edu/" target="_blank"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <img
+            src="https://client-data.knak.io/production/email_assets/5fd10b569d941/Y9PaAR4BN1uvwQSeUR37Jtdwa2YUrN1By1RZIsk8.png"
+            height="80" alt="SNHU logo">
+        </a>
+        </a>
       <p class="col-md-4 justify-content-end lh-lg text-md-end" style="color: #fff;">
-        ©  © %%=FormatDate(Now(), "yyyy")=%%<br>
+        © © %%=FormatDate(Now(), "yyyy")=%%<br>
         Southern New Hampshire University<br>
         View our <a href="https://www.snhu.edu/privacy-policy" class="text-link">Privacy Policy</a> | <a
           href="https://www.snhu.edu/about-us/accessibility" class="text-link">Accessibility at SNHU</a>

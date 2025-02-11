@@ -13,13 +13,22 @@
 
 
 body {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+ font-family:  "Inter", serif;
+}
+
+.nvlink2 {
+  font-size: 16px ;
+  font-weight: 640;
+  color: #ffffff !important;
 }
 
 
-
-
-
+.cta-block1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
   
   
   

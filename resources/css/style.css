@@ -163,15 +163,20 @@ $font-size-7xl: 4rem; /*64px */
 /* 36px */
 /* 40px  h1 tag* /
 $font-size-7xl: 4rem; /*64px */
-section {
-  margin: 5rem 0 5rem 0;
+body {
+  font-family: "Inter", serif;
 }
 
 h1 {
-  color: #0a3370;
-  font-size: 2.5rem;
-  font-weight: bold;
-  font-family: "Oswald", sans-serif;
+  color: #00244e;
+  font-size: clamp(2.44125rem, 1.8776rem + 1.5657vw, 3.05187rem);
+  font-weight: 640;
+}
+
+.display-4--normal {
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 1.25;
 }
 
 h2 {
@@ -191,7 +196,6 @@ h3 {
 
 p,
 li {
-  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   color: #666666;
@@ -206,8 +210,7 @@ a.head-link {
   font-size: 1rem;
   font-weight: 700;
   line-height: 24px;
-  font-family: "Open Sans", sans-serif;
-  color: #fff;
+  color: #00244e;
   text-decoration: none;
 }
 
@@ -289,10 +292,6 @@ footer.mobile {
   display: none;
 }
 
-.navbar {
-  background-color: #00244e;
-}
-
 @media only screen and (max-width: 576px) {
   .navbar > .container {
     justify-content: center;
@@ -322,15 +321,20 @@ footer.mobile {
 /* 36px */
 /* 40px  h1 tag* /
 $font-size-7xl: 4rem; /*64px */
-section {
-  margin: 5rem 0 5rem 0;
+body {
+  font-family: "Inter", serif;
 }
 
 h1 {
-  color: #0a3370;
-  font-size: 2.5rem;
-  font-weight: bold;
-  font-family: "Oswald", sans-serif;
+  color: #00244e;
+  font-size: clamp(2.44125rem, 1.8776rem + 1.5657vw, 3.05187rem);
+  font-weight: 640;
+}
+
+.display-4--normal {
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 1.25;
 }
 
 h2 {
@@ -350,7 +354,6 @@ h3 {
 
 p,
 li {
-  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   color: #666666;
@@ -365,8 +368,7 @@ a.head-link {
   font-size: 1rem;
   font-weight: 700;
   line-height: 24px;
-  font-family: "Open Sans", sans-serif;
-  color: #fff;
+  color: #00244e;
   text-decoration: none;
 }
 
@@ -391,5 +393,18 @@ a {
   }
 }
 body {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Inter", serif;
+}
+
+.nvlink2 {
+  font-size: 16px;
+  font-weight: 640;
+  color: #ffffff !important;
+}
+
+.cta-block1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=style.css.map */
