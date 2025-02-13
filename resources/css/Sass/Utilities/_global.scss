@@ -1,5 +1,3 @@
-@import "../Utilities/themes";
-@import "../Utilities/variables";
 
 body {
   font-family:  "Inter", serif;
@@ -17,11 +15,12 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 1.5rem;
-  color: $ink-blue;
-  font-weight: 700; 
-  font-size: $font-size-2xl;
-  font-family: $open-sans;
+  margin-bottom: 1rem;
+  font-family: Inter, Inter-fallback, sans-serif;
+  font-weight: 640;
+  line-height: 1.25;
+  color: #00244e;
+  font-size: clamp(1.953125rem, 1.5025rem + 1.2516vw, 2.44125rem);
 }
 
 
