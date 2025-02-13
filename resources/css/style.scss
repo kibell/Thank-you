@@ -410,6 +410,17 @@ header nav.utility div, header nav.utility ul {
 .cta-block2 {
   display: none;
 }
+
+
+.nvitem2:hover {
+background-color: black;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: -100%;
+  margin-top: var(--bs-dropdown-spacer);
+}
 @media (max-width: 480px) {
 .masthead-min {
   height: 15em; 
@@ -433,4 +444,24 @@ display: none;
 .testimonial-section {
   display:none;
 }
+}
+
+@media (max-width: 991px) { /* Bootstrap's breakpoint for mobile */
+  .navbar-nav-2 {
+    flex-direction: column;
+    align-items: center; /* Centers items */
+    gap: 10px; /* Adds spacing between items */
+  }
+
+  .nav-2-item {
+    width: 100%; /* Makes each item take full width */
+  }
+
+  .nav-link-2 {
+    padding: 10px 0; /* Adds padding for better touchability */
+  }
+
+  .navbar-toggler {
+    background-color: white
+  }
 }
