@@ -555,4 +555,41 @@ header nav.utility div, header nav.utility ul {
   top: 0.281rem;
   height: 1.125rem;
   width: 1.125rem;
+}
+
+.btn {
+  margin-bottom: 1rem;
+}
+
+.masthead-min {
+  background-image: url(https://image.dream.snhu.edu/lib/fe9213737461067576/m/1/0f66fd11-7819-48c1-b5d9-fa078c86e036.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30em;
+}
+
+.cta-block2 {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .masthead-min {
+    height: 15em;
+  }
+  .cta-block1 {
+    display: none;
+  }
+  .cta-block2 {
+    display: block;
+  }
+  .two-button-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0 16px;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .testimonial-section {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
