@@ -207,7 +207,6 @@ body {
 
 header {
   position: sticky;
-  position: sticky;
   top: 0;
   background: white;
   /* padding: 10px 20px; */
@@ -219,13 +218,6 @@ header {
   font-size: 16px;
   font-weight: 640;
   color: #ffffff !important;
-}
-
-.card.cta-block1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 50%);
 }
 
 .video-container {
@@ -583,7 +575,7 @@ header nav.utility div, header nav.utility ul {
   margin-top: var(--bs-dropdown-spacer);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 980px) {
   .masthead-min {
     height: 15em;
   }
@@ -618,4 +610,29 @@ header nav.utility div, header nav.utility ul {
   .navbar-toggler {
     background-color: white;
   }
+  header {
+    position: relative !important;
+  }
+}
+@media (max-width: 991px) and (orientation: portrait) {
+  header {
+    position: relative !important;
+  }
+}
+.masthead-min {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.masthead-min .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-block1 {
+  width: 45%; /* Adjusts size for desktop */
+  margin: 15px; /* Adds spacing */
 }/*# sourceMappingURL=style.css.map */
